@@ -40,6 +40,10 @@
     border-radius: 50%;
     background-color: var(--primary-neon);
     bottom: -60px;
+    transition: all ease 0.3s;
+}
+.advice__btn:hover{
+    box-shadow: 0px 0px 9px 12px rgba(82, 255, 168, 0.2);
 }
 .advice__btn button {
     width: 60px;
